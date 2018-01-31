@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RXSwift1.1/ViewController.swift"
+            timestampString = "539094113.664441"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RXSwift1.1/ViewController.swift"
+            timestampString = "539094113.66505"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RXSwift1_1.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "RXSwift1.1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saurabh/Documents/Saurabh/Learning/Ebook/Extracted/RXSwift1.1/RXSwift1.1/ViewController.swift"
+                  timestampString = "539091501.4945101"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "49"
+                  endingLineNumber = "49"
+                  offsetFromSymbolStart = "2123">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Int, RXSwift1_1.Countries, RXSwift1_1.cellTableView) -&gt; () in RXSwift1_1.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "RXSwift1.1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saurabh/Documents/Saurabh/Learning/Ebook/Extracted/RXSwift1.1/RXSwift1.1/ViewController.swift"
+                  timestampString = "539091501.496822"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "66">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RXSwift1.1/ViewController.swift"
+            timestampString = "539094113.665359"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RXSwift1_1.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "RXSwift1.1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saurabh/Documents/Saurabh/Learning/Ebook/Extracted/RXSwift1.1/RXSwift1.1/ViewController.swift"
+                  timestampString = "539091501.503927"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "44"
+                  endingLineNumber = "44"
+                  offsetFromSymbolStart = "1320">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Array&lt;RXSwift1_1.Countries&gt;) -&gt; () in RXSwift1_1.ViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "RXSwift1.1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/saurabh/Documents/Saurabh/Learning/Ebook/Extracted/RXSwift1.1/RXSwift1.1/ViewController.swift"
+                  timestampString = "539091501.506559"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RXSwift1.1/ViewController.swift"
+            timestampString = "539094113.665673"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
