@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0954DBA72021D8940050B1BE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0954DBA62021D8940050B1BE /* ViewModel.swift */; };
+		2353248520221025005DD3E1 /* CombinestagramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2353248420221025005DD3E1 /* CombinestagramViewController.swift */; };
+		2353248B20221077005DD3E1 /* CombinestagramViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2353248A20221077005DD3E1 /* CombinestagramViewModel.swift */; };
+		2353248D20221080005DD3E1 /* CombinestagramModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2353248C20221080005DD3E1 /* CombinestagramModel.swift */; };
+		2353248F2022108E005DD3E1 /* Combinestagram.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2353248E2022108E005DD3E1 /* Combinestagram.storyboard */; };
 		239FD214200D0E9E0027E659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239FD213200D0E9E0027E659 /* AppDelegate.swift */; };
 		239FD216200D0E9E0027E659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239FD215200D0E9E0027E659 /* ViewController.swift */; };
 		239FD219200D0E9E0027E659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239FD217200D0E9E0027E659 /* Main.storyboard */; };
@@ -19,6 +23,10 @@
 
 /* Begin PBXFileReference section */
 		0954DBA62021D8940050B1BE /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		2353248420221025005DD3E1 /* CombinestagramViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinestagramViewController.swift; sourceTree = "<group>"; };
+		2353248A20221077005DD3E1 /* CombinestagramViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinestagramViewModel.swift; sourceTree = "<group>"; };
+		2353248C20221080005DD3E1 /* CombinestagramModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinestagramModel.swift; sourceTree = "<group>"; };
+		2353248E2022108E005DD3E1 /* Combinestagram.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Combinestagram.storyboard; sourceTree = "<group>"; };
 		239FD210200D0E9E0027E659 /* RXSwift1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwift1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		239FD213200D0E9E0027E659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		239FD215200D0E9E0027E659 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +60,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		2353248320220FC9005DD3E1 /* Combinestagram */ = {
+			isa = PBXGroup;
+			children = (
+				2353248920221048005DD3E1 /* Controller */,
+				235324882022103F005DD3E1 /* ViewModel */,
+				2353248720221038005DD3E1 /* View */,
+				2353248620221030005DD3E1 /* Model */,
+			);
+			path = Combinestagram;
+			sourceTree = "<group>";
+		};
+		2353248620221030005DD3E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2353248C20221080005DD3E1 /* CombinestagramModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2353248720221038005DD3E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2353248E2022108E005DD3E1 /* Combinestagram.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		235324882022103F005DD3E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2353248A20221077005DD3E1 /* CombinestagramViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2353248920221048005DD3E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2353248420221025005DD3E1 /* CombinestagramViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		239FD207200D0E9E0027E659 = {
 			isa = PBXGroup;
 			children = (
@@ -73,6 +124,7 @@
 		239FD212200D0E9E0027E659 /* RXSwift1.1 */ = {
 			isa = PBXGroup;
 			children = (
+				2353248320220FC9005DD3E1 /* Combinestagram */,
 				239FD213200D0E9E0027E659 /* AppDelegate.swift */,
 				239FD215200D0E9E0027E659 /* ViewController.swift */,
 				0954DBA62021D8940050B1BE /* ViewModel.swift */,
@@ -156,6 +208,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2353248F2022108E005DD3E1 /* Combinestagram.storyboard in Resources */,
 				239FD221200D0E9E0027E659 /* LaunchScreen.storyboard in Resources */,
 				239FD21E200D0E9E0027E659 /* Assets.xcassets in Resources */,
 				239FD219200D0E9E0027E659 /* Main.storyboard in Resources */,
@@ -218,8 +271,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				239FD216200D0E9E0027E659 /* ViewController.swift in Sources */,
+				2353248520221025005DD3E1 /* CombinestagramViewController.swift in Sources */,
+				2353248D20221080005DD3E1 /* CombinestagramModel.swift in Sources */,
 				239FD214200D0E9E0027E659 /* AppDelegate.swift in Sources */,
 				0954DBA72021D8940050B1BE /* ViewModel.swift in Sources */,
+				2353248B20221077005DD3E1 /* CombinestagramViewModel.swift in Sources */,
 				239FD21C200D0E9E0027E659 /* RXSwift1_1.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
