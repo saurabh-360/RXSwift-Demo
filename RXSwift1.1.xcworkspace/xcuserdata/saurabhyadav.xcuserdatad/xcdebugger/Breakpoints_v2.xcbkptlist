@@ -9,94 +9,14 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "RXSwift1.1/ViewController.swift"
-            timestampString = "539020878.408106"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
-            landmarkName = "tableView(_:willDisplay:forRowAt:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RXSwift1.1/Combinestagram/Main/Controller/CombinestagramViewController.swift"
-            timestampString = "540070503.453591"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
-            landmarkName = "showPhotosButtonAction(_:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "RXSwift1.1/Combinestagram/Main/Controller/CombinestagramViewController.swift"
-            timestampString = "540070503.4538161"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
             filePath = "RXSwift1.1/TableCollection/TableCollectionViewController.swift"
-            timestampString = "540070503.4539551"
+            timestampString = "540074515.4405659"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
-            landmarkName = "setupBinding()"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "setupSelection()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "RXSwift1_1.TableCollectionViewController.setupBinding() -&gt; ()"
-                  moduleName = "RXSwift1.1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/saurabhyadav/Desktop/Ibooks/RXSwift/RXSwiftDemos/RXSwift-Demo/RXSwift1.1/TableCollection/TableCollectionViewController.swift"
-                  timestampString = "540069394.544453"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "24">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Swift.Int, RXSwift1_1.TableCollectionData, RXSwift1_1.TableCollectionTableViewCell) -&gt; () in RXSwift1_1.TableCollectionViewController.setupBinding() -&gt; ()"
-                  moduleName = "RXSwift1.1"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/saurabhyadav/Desktop/Ibooks/RXSwift/RXSwiftDemos/RXSwift-Demo/RXSwift1.1/TableCollection/TableCollectionViewController.swift"
-                  timestampString = "540069394.548388"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "55"
-                  endingLineNumber = "55"
-                  offsetFromSymbolStart = "44">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

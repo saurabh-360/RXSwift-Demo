@@ -35,17 +35,28 @@ class TableCollectionViewController: UIViewController {
         super.viewDidLoad()
         self.createData()
         self.setupBinding()
-//        self.setupSelection()
+        self.setupSelection()
     }
     
-//    func setupSelection() {
+    func setupSelection() {
+        
+        
+        self.tableview.rx.itemSelected
+            .subscribe(onNext: { [weak self] indexPath in
+                let cell = self?.tableview.cellForRow(at: indexPath) as? TableCollectionTableViewCell
+                cell?.tcCollectionView.rx.itemSelected
+                    .subscribe(onNext: {[weak self] indexPathCollection in
+                        print("\(indexPath.row), \(indexPathCollection.row)")
+                    })
+            }).addDisposableTo(disposeBag)
+    }
 //        self.tableview.rx.modelSelected(TableCollectionData.self)
 //            .subscribe(onNext: {[weak self] tableData in
 //                print(tableData)
 //                let indexPath = self?.tableview.cellForRow(at: self?.tableview.rx.itemSelected)
 //                let cell =  as! TableCollectionTableViewCell
 //                cell
-//                
+//
 //            }).disposed(by: disposeBag)
 //    }
     
@@ -75,6 +86,7 @@ class TableCollectionViewController: UIViewController {
             tcDataObject.collectionData.asObservable().bind(to: cell.tcCollectionView.rx.items(cellIdentifier: "TableCollectionCollectionViewCell", cellType: TableCollectionCollectionViewCell.self)) {
                 row, collectionObject, collectonCell in
                 collectonCell.collectionImageView.image = collectionObject.image
+                
             }.disposed(by: cell.disposeBag)
         }
             .disposed(by: disposeBag)

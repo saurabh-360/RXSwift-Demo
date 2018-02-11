@@ -20,11 +20,21 @@ class TableCollectionTableViewCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        self.tcCollectionView.rx.itemSelected
+            .subscribe(onNext: {indexPathCollection in
+                print("\(indexPathCollection.row)")
+            })
+            .disposed(by: self.disposeBag)
     }
 
     override func prepareForReuse() {
         super.prepareForReuse()
         disposeBag = DisposeBag()
+        self.tcCollectionView.rx.itemSelected
+            .subscribe(onNext: {indexPathCollection in
+                print("\(indexPathCollection.row)")
+            })
+            .disposed(by: self.disposeBag)
     }
     
     override func setSelected(_ selected: Bool, animated: Bool) {
