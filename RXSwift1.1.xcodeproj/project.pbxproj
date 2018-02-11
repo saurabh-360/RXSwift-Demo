@@ -12,12 +12,17 @@
 		2353248B20221077005DD3E1 /* CombinestagramViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2353248A20221077005DD3E1 /* CombinestagramViewModel.swift */; };
 		2353248D20221080005DD3E1 /* CombinestagramModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2353248C20221080005DD3E1 /* CombinestagramModel.swift */; };
 		2353248F2022108E005DD3E1 /* Combinestagram.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2353248E2022108E005DD3E1 /* Combinestagram.storyboard */; };
+		23532494202213B1005DD3E1 /* SelectPhotosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23532493202213B1005DD3E1 /* SelectPhotosViewController.swift */; };
 		239FD214200D0E9E0027E659 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239FD213200D0E9E0027E659 /* AppDelegate.swift */; };
 		239FD216200D0E9E0027E659 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 239FD215200D0E9E0027E659 /* ViewController.swift */; };
 		239FD219200D0E9E0027E659 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239FD217200D0E9E0027E659 /* Main.storyboard */; };
 		239FD21C200D0E9E0027E659 /* RXSwift1_1.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 239FD21A200D0E9E0027E659 /* RXSwift1_1.xcdatamodeld */; };
 		239FD21E200D0E9E0027E659 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 239FD21D200D0E9E0027E659 /* Assets.xcassets */; };
 		239FD221200D0E9E0027E659 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 239FD21F200D0E9E0027E659 /* LaunchScreen.storyboard */; };
+		23B2BA472030C91500744F00 /* TableCollection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23B2BA462030C91500744F00 /* TableCollection.storyboard */; };
+		23B2BA492030C92F00744F00 /* TableCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B2BA482030C92F00744F00 /* TableCollectionViewController.swift */; };
+		23B2BA4B2030C93D00744F00 /* TableCollectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B2BA4A2030C93D00744F00 /* TableCollectionTableViewCell.swift */; };
+		23B2BA4D2030C94900744F00 /* TableCollectionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23B2BA4C2030C94900744F00 /* TableCollectionCollectionViewCell.swift */; };
 		9581B8F2190560FE360C439A /* Pods_RXSwift1_1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 535F919297176C0DFEED13C9 /* Pods_RXSwift1_1.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +32,7 @@
 		2353248A20221077005DD3E1 /* CombinestagramViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinestagramViewModel.swift; sourceTree = "<group>"; };
 		2353248C20221080005DD3E1 /* CombinestagramModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinestagramModel.swift; sourceTree = "<group>"; };
 		2353248E2022108E005DD3E1 /* Combinestagram.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Combinestagram.storyboard; sourceTree = "<group>"; };
+		23532493202213B1005DD3E1 /* SelectPhotosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPhotosViewController.swift; sourceTree = "<group>"; };
 		239FD210200D0E9E0027E659 /* RXSwift1.1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RXSwift1.1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		239FD213200D0E9E0027E659 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		239FD215200D0E9E0027E659 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -35,6 +41,10 @@
 		239FD21D200D0E9E0027E659 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		239FD220200D0E9E0027E659 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		239FD222200D0E9E0027E659 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23B2BA462030C91500744F00 /* TableCollection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableCollection.storyboard; sourceTree = "<group>"; };
+		23B2BA482030C92F00744F00 /* TableCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCollectionViewController.swift; sourceTree = "<group>"; };
+		23B2BA4A2030C93D00744F00 /* TableCollectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCollectionTableViewCell.swift; sourceTree = "<group>"; };
+		23B2BA4C2030C94900744F00 /* TableCollectionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCollectionCollectionViewCell.swift; sourceTree = "<group>"; };
 		535F919297176C0DFEED13C9 /* Pods_RXSwift1_1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RXSwift1_1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F3DEA199EE3191AEE350E63 /* Pods-RXSwift1.1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwift1.1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RXSwift1.1/Pods-RXSwift1.1.debug.xcconfig"; sourceTree = "<group>"; };
 		9856D9A7FE0BD5414D160D2D /* Pods-RXSwift1.1.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RXSwift1.1.release.xcconfig"; path = "Pods/Target Support Files/Pods-RXSwift1.1/Pods-RXSwift1.1.release.xcconfig"; sourceTree = "<group>"; };
@@ -63,10 +73,8 @@
 		2353248320220FC9005DD3E1 /* Combinestagram */ = {
 			isa = PBXGroup;
 			children = (
-				2353248920221048005DD3E1 /* Controller */,
-				235324882022103F005DD3E1 /* ViewModel */,
-				2353248720221038005DD3E1 /* View */,
-				2353248620221030005DD3E1 /* Model */,
+				2353249020221366005DD3E1 /* Photos */,
+				2353249120221378005DD3E1 /* Main */,
 			);
 			path = Combinestagram;
 			sourceTree = "<group>";
@@ -103,6 +111,57 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
+		2353249020221366005DD3E1 /* Photos */ = {
+			isa = PBXGroup;
+			children = (
+				23532497202213C5005DD3E1 /* ViewModel */,
+				23532496202213BB005DD3E1 /* View */,
+				23532495202213B8005DD3E1 /* Model */,
+				235324922022139D005DD3E1 /* Controller */,
+			);
+			path = Photos;
+			sourceTree = "<group>";
+		};
+		2353249120221378005DD3E1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				2353248920221048005DD3E1 /* Controller */,
+				235324882022103F005DD3E1 /* ViewModel */,
+				2353248720221038005DD3E1 /* View */,
+				2353248620221030005DD3E1 /* Model */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		235324922022139D005DD3E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				23532493202213B1005DD3E1 /* SelectPhotosViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		23532495202213B8005DD3E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23532496202213BB005DD3E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		23532497202213C5005DD3E1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		239FD207200D0E9E0027E659 = {
 			isa = PBXGroup;
 			children = (
@@ -133,8 +192,20 @@
 				239FD21F200D0E9E0027E659 /* LaunchScreen.storyboard */,
 				239FD222200D0E9E0027E659 /* Info.plist */,
 				239FD21A200D0E9E0027E659 /* RXSwift1_1.xcdatamodeld */,
+				23B2BA4E2030C94F00744F00 /* TableCollection */,
 			);
 			path = RXSwift1.1;
+			sourceTree = "<group>";
+		};
+		23B2BA4E2030C94F00744F00 /* TableCollection */ = {
+			isa = PBXGroup;
+			children = (
+				23B2BA462030C91500744F00 /* TableCollection.storyboard */,
+				23B2BA482030C92F00744F00 /* TableCollectionViewController.swift */,
+				23B2BA4A2030C93D00744F00 /* TableCollectionTableViewCell.swift */,
+				23B2BA4C2030C94900744F00 /* TableCollectionCollectionViewCell.swift */,
+			);
+			path = TableCollection;
 			sourceTree = "<group>";
 		};
 		4F8FABD283074F504EB88303 /* Pods */ = {
@@ -208,6 +279,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B2BA472030C91500744F00 /* TableCollection.storyboard in Resources */,
 				2353248F2022108E005DD3E1 /* Combinestagram.storyboard in Resources */,
 				239FD221200D0E9E0027E659 /* LaunchScreen.storyboard in Resources */,
 				239FD21E200D0E9E0027E659 /* Assets.xcassets in Resources */,
@@ -270,12 +342,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23B2BA4B2030C93D00744F00 /* TableCollectionTableViewCell.swift in Sources */,
 				239FD216200D0E9E0027E659 /* ViewController.swift in Sources */,
 				2353248520221025005DD3E1 /* CombinestagramViewController.swift in Sources */,
 				2353248D20221080005DD3E1 /* CombinestagramModel.swift in Sources */,
 				239FD214200D0E9E0027E659 /* AppDelegate.swift in Sources */,
 				0954DBA72021D8940050B1BE /* ViewModel.swift in Sources */,
 				2353248B20221077005DD3E1 /* CombinestagramViewModel.swift in Sources */,
+				23B2BA492030C92F00744F00 /* TableCollectionViewController.swift in Sources */,
+				23B2BA4D2030C94900744F00 /* TableCollectionCollectionViewCell.swift in Sources */,
+				23532494202213B1005DD3E1 /* SelectPhotosViewController.swift in Sources */,
 				239FD21C200D0E9E0027E659 /* RXSwift1_1.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
