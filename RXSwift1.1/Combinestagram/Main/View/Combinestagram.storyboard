@@ -66,6 +66,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="49a-OS-Yi9">
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="0So-ot-2ZH">
+                            <color key="tintColor" red="0.33498234167524465" green="0.55547285706083005" blue="0.91094939720812185" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
                                 <action selector="showPhotosButtonAction:" destination="Jet-VY-F9j" id="AxY-UO-mYU"/>
                             </connections>
@@ -73,6 +74,7 @@
                     </navigationItem>
                     <connections>
                         <outlet property="cleatButton" destination="XdW-my-w2V" id="MYm-pX-nWh"/>
+                        <outlet property="itemAdd" destination="0So-ot-2ZH" id="k3N-yV-mOF"/>
                         <outlet property="previewImageView" destination="cmm-sZ-u5i" id="NrB-qh-KW5"/>
                         <outlet property="saveButton" destination="f7e-ZL-L3C" id="UHY-SS-YJA"/>
                     </connections>
@@ -81,39 +83,81 @@
             </objects>
             <point key="canvasLocation" x="610.39999999999998" y="158.77061469265368"/>
         </scene>
+        <!--Select Photos View Controller-->
+        <scene sceneID="5Gq-gd-9ND">
+            <objects>
+                <collectionViewController storyboardIdentifier="SelectPhotosViewController" id="mec-am-wBc" customClass="SelectPhotosViewController" customModule="RXSwift1_1" customModuleProvider="target" sceneMemberID="viewController">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="Vs3-di-EeS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="vdD-kM-bUW">
+                            <size key="itemSize" width="120" height="132"/>
+                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        </collectionViewFlowLayout>
+                        <cells>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="6SF-R6-Hy6" customClass="PhotoCell" customModule="RXSwift1_1" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                                    <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Xa9-v1-D76">
+                                            <rect key="frame" x="0.0" y="0.0" width="140" height="140"/>
+                                        </imageView>
+                                    </subviews>
+                                </view>
+                                <constraints>
+                                    <constraint firstItem="Xa9-v1-D76" firstAttribute="top" secondItem="6SF-R6-Hy6" secondAttribute="top" id="SLp-WX-NlC"/>
+                                    <constraint firstAttribute="bottom" secondItem="Xa9-v1-D76" secondAttribute="bottom" id="WWy-GG-v4m"/>
+                                    <constraint firstItem="Xa9-v1-D76" firstAttribute="leading" secondItem="6SF-R6-Hy6" secondAttribute="leading" id="fg0-Mg-Z3n"/>
+                                    <constraint firstAttribute="trailing" secondItem="Xa9-v1-D76" secondAttribute="trailing" id="kuH-UZ-vfs"/>
+                                </constraints>
+                                <size key="customSize" width="140" height="140"/>
+                                <connections>
+                                    <outlet property="imageView" destination="Xa9-v1-D76" id="kHp-1w-1sQ"/>
+                                </connections>
+                            </collectionViewCell>
+                        </cells>
+                        <connections>
+                            <outlet property="dataSource" destination="mec-am-wBc" id="Nsr-WS-mAs"/>
+                            <outlet property="delegate" destination="mec-am-wBc" id="qbB-jN-4cE"/>
+                        </connections>
+                    </collectionView>
+                </collectionViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SQC-PM-JVF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1493.5999999999999" y="167.76611694152925"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="csP-sy-cJU">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7OY-7I-dFQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="lNu-ni-xGl" sceneMemberID="viewController">
                     <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0Bn-EW-Vo6">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" backIndicatorImage=" Back" id="0Bn-EW-Vo6">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="tintColor" red="0.28578415509999999" green="0.48482978339999999" blue="0.74110466239999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="barTintColor" red="0.87757703993055558" green="0.52414075374199076" blue="0.29279724960497655" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <color key="textColor" red="0.23727756080000001" green="0.34475368919999999" blue="0.47629475589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
                         <segue destination="Jet-VY-F9j" kind="relationship" relationship="rootViewController" id="dQy-df-Dgd"/>
                     </connections>
                 </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="7OY-7I-dFQ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-162" y="159"/>
         </scene>
-        <!--Select Photos View Controller-->
-        <scene sceneID="AAd-3b-h3o">
-            <objects>
-                <viewController storyboardIdentifier="SelectPhotosViewController" id="Jwr-L5-16i" customClass="SelectPhotosViewController" customModule="RXSwift1_1" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="lBr-DP-nDm">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.2372775607638889" green="0.3447536892361111" blue="0.47629475589999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="bdw-mw-F3N"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="A2J-f9-L0b"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="nFX-2Q-Hbr" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1278" y="159"/>
-        </scene>
     </scenes>
+    <resources>
+        <image name=" Back" width="16" height="16"/>
+    </resources>
 </document>

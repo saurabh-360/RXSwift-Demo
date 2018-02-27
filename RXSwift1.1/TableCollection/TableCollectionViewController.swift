@@ -36,10 +36,27 @@ class TableCollectionViewController: UIViewController {
         self.createData()
         self.setupBinding()
         self.setupSelection()
+        
+//        var request = URLRequest.init(url: URL.init(string: "some url")!)
+//        let dataObservable = URLSession.shared.rx.data(request: request)
+//        dataObservable.observeOn(MainScheduler.instance)
+//        .subscribe()
+//        dataObservable.asObservable().subscribe(onNext: { response in
+//            print(response)
+//            print()
+//            do {
+//                let json = try? JSONSerialization.jsonObject(with: response, options: [])
+//                print(json)
+//            }
+//            catch {
+//
+//            }
+//        })
+//            .disposed(by: disposeBag)
     }
     
+    
     func setupSelection() {
-        
         
         self.tableview.rx.itemSelected
             .subscribe(onNext: { [weak self] indexPath in
@@ -48,7 +65,7 @@ class TableCollectionViewController: UIViewController {
                     .subscribe(onNext: {[weak self] indexPathCollection in
                         print("\(indexPath.row), \(indexPathCollection.row)")
                     })
-            }).addDisposableTo(disposeBag)
+            }).disposed(by: disposeBag)
     }
 //        self.tableview.rx.modelSelected(TableCollectionData.self)
 //            .subscribe(onNext: {[weak self] tableData in

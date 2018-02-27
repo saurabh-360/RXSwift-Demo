@@ -4,22 +4,27 @@ import UIKit
 import RxSwift
 import RxCocoa
 
-
-func firstObservable() {
-    
-    let observable1 = Observable<Int>.of(1,2,3)
-    let replaySubject1 = ReplaySubject<String>.create(bufferSize: 3)
-    replaySubject1.onNext("1")
-    replaySubject1.onNext("2")
-    replaySubject1.onNext("3")
-    replaySubject1.onNext("4")
-    
-    replaySubject1.subscribe(onNext: {
-        print($0)
-    })
-    replaySubject1.onNext("4")
-
+var start = 0
+func getStartNumber() -> Int {
+    start += 1
+    return start
 }
 
+let numbers = Observable<Int>.create { observer in
+    let start = getStartNumber()
+    observer.onNext(start)
+    observer.onNext(start+1)
+    observer.onNext(start+2)
+    observer.onCompleted()
+    return Disposables.create()
+}
 
-firstObservable()
+let some = numbers.asObservable().share()
+
+some.subscribe({
+    print($0)
+})
+
+some.subscribe({
+    print($0)
+})
